@@ -37,7 +37,7 @@ void Title() {
   if (key == 's') {
     state = GAME;
     intEnemy();
-    Boss_hp[Q]=200;
+    Boss_hp[Q]=1200;
   }
 }
 
@@ -65,7 +65,7 @@ void Ending() {
 
   if (key == 'r') {
     NewGame();
-    Boss_hp[Q]=200;
+    Boss_hp[Q]=1200;
     BGM.rewind();
     BGM.loop();
   }
@@ -108,7 +108,7 @@ void Clear() {
   rect(0, height-55, 200, 50);
   if (key == 'r') {
     NewGame();
-    Boss_hp[Q]=200;
+    Boss_hp[Q]=1200;
     BGM.rewind();
     BGM.loop();
   }

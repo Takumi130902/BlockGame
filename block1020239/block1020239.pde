@@ -31,9 +31,9 @@ float tx8, ty8;
 float tx9, ty9;
 float bxe1, bye1, bxe2, bye2, bxr1, bxr2;
 float BX, BY, BW, BH;
-int enemy_x[]=new int[30], enemy_y[]=new int[30];
-int enemy_speed[]=new int[30];
-int enemy_hp[]=new int [30];
+int enemy_x[]=new int[33], enemy_y[]=new int[33];
+int enemy_speed[]=new int[33];
+int enemy_hp[]=new int [33];
 int Boss_hp[]=new int[1];
 int Q=0;
 int Dx;
@@ -58,7 +58,7 @@ void setup() {
   BGM.loop();
   BGM.setGain(-10);
 
-  size(1366, 768);
+  size(1400, 820);
   floatBoss();
   floatWing();
   floatBeam();
